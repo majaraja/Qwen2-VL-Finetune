@@ -6,6 +6,9 @@
 MODEL_NAME="Qwen/Qwen2.5-VL-3B-Instruct"
 # MODEL_NAME="Qwen/Qwen2.5-VL-7B-Instruct"
 
+DATA_PATH="/path/to/your/training/data.json"
+IMAGE_FOLDER="/path/to/your/image/folder"
+
 export PYTHONPATH=src:$PYTHONPATH
 
 GLOBAL_BATCH_SIZE=128
@@ -26,8 +29,8 @@ deepspeed src/train/train_sft.py \
     --num_lora_modules -1 \
     --deepspeed scripts/zero3_offload.json \
     --model_id $MODEL_NAME \
-    --data_path /path/to/your/training/data.json \
-    --image_folder /path/to/your/image/folder \
+    --data_path $DATA_PATH \
+    --image_folder $IMAGE_FOLDER \
     --remove_unused_columns False \
     --freeze_vision_tower False \
     --freeze_llm True \
