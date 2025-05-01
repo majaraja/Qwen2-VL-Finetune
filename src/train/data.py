@@ -110,8 +110,6 @@ class SupervisedDataset(Dataset):
         else:
             list_data_dict = data_path
 
-
-        print(f"List_data_dict: {list_data_dict}")
         self.model_id = model_id
         self.processor = processor
         self.list_data_dict = list_data_dict
@@ -132,6 +130,7 @@ class SupervisedDataset(Dataset):
 
     def __getitem__(self, i) -> Dict[str, torch.Tensor]:
         print(f"Check for bad index: {i}")
+        print(self.list_data_dict[i])
         sources = self.list_data_dict[i]
 
         is_video = False
