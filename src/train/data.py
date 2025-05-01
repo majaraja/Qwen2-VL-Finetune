@@ -131,6 +131,7 @@ class SupervisedDataset(Dataset):
     def __getitem__(self, i) -> Dict[str, torch.Tensor]:
         print(f"Check for bad index: {i}")
         sources = self.list_data_dict[i]
+        print(f"Sources: {sources}")
 
         is_video = False
 
