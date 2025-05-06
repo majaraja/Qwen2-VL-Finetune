@@ -688,18 +688,29 @@ def llava_to_openai(conversations, is_video=False):
 
 def make_supervised_data_module(model_id, processor, data_args):
     """Make dataset and collator for supervised fine-tuning."""
-    sft_dataset = SupervisedDataset(
-        data_path=data_args.data_path,
+    sft_dataset_train = SupervisedDataset(
+        data_path=data_args.data_path_train,
         processor=processor,
         data_args=data_args,
         model_id=model_id,
     )
+    if data_args.data_path_val is not None:
+        sft_dataset_val = SupervisedDataset(
+            data_path=data_args.data_path_val,
+            processor=processor,
+            data_args=data_args,
+            model_id=model_id,
+        )
+    else:
+        sft_dataset_val = None
     data_collator = DataCollatorForSupervisedDataset(
         pad_token_id=processor.tokenizer.pad_token_id
     )
 
     return dict(
-        train_dataset=sft_dataset, eval_dataset=None, data_collator=data_collator
+        train_dataset=sft_dataset_train,
+        eval_dataset=sft_dataset_val,
+        data_collator=data_collator,
     )
 
 
