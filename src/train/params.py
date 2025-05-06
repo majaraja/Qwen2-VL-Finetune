@@ -59,6 +59,14 @@ class TrainingArguments(HFTrainingArguments):
     num_lora_modules: int = -1
     use_liger: bool = True
 
+    # Evaluation:
+    eval_strategy = "epoch"
+    logging_strategy = "steps"
+    logging_steps = 50
+    save_strategy = "epoch"
+    load_best_model_at_end = True
+    metric_for_best_model = "eval_loss"  # Or any other metric
+
 
 @dataclass
 class DPOArguments(DPOConfigTRL):
