@@ -694,15 +694,13 @@ def make_supervised_data_module(model_id, processor, data_args):
         data_args=data_args,
         model_id=model_id,
     )
-    if data_args.data_path_val is not None:
-        sft_dataset_val = SupervisedDataset(
-            data_path=data_args.data_path_val,
-            processor=processor,
-            data_args=data_args,
-            model_id=model_id,
-        )
-    else:
-        sft_dataset_val = None
+    sft_dataset_val = SupervisedDataset(
+        data_path=data_args.data_path_val,
+        processor=processor,
+        data_args=data_args,
+        model_id=model_id,
+    )
+
     data_collator = DataCollatorForSupervisedDataset(
         pad_token_id=processor.tokenizer.pad_token_id
     )
