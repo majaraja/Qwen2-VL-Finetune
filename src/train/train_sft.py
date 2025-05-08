@@ -252,7 +252,7 @@ def train():
         model_id=model_args.model_id, processor=processor, data_args=data_args
     )
     try:
-        training_args = training_args.set_evaluate(strategy="steps", steps=5)
+        training_args = training_args.set_evaluate(strategy="steps", steps=5, delay=1)
         print(f"Evaluation steps: {training_args.eval_steps}")
     except:
         print(f"Error setting evaluation steps it seems...")
