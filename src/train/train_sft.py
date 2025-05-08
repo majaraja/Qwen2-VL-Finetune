@@ -251,6 +251,11 @@ def train():
     data_module = make_supervised_data_module(
         model_id=model_args.model_id, processor=processor, data_args=data_args
     )
+    try:
+        training_args = training_args.set_evaluate(strategy="steps", steps=5)
+        print(f"Evaluation steps: {training_args.eval_steps}")
+    except:
+        print(f"Error setting evaluation steps it seems...")
 
     trainer = QwenTrainer(
         model=model, processing_class=processor, args=training_args, **data_module
@@ -262,7 +267,7 @@ def train():
         trainer.train()
     try:
         metrics = trainer.evaluate()
-        print("Validation loss:", metrics.get("eval_loss"))
+        print("Validation loss:", metrics)
         print(f"Length of eval: {len(trainer.eval_dataset)}")
     except:
         print("evaluation stuff failed for whatever reason.")
@@ -293,4 +298,3 @@ def train():
 
 if __name__ == "__main__":
     train()
-
