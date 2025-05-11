@@ -46,7 +46,7 @@ def main(args):
             "content": [
                 {
                     "type": "image",
-                    "image": "~/Qwen2-VL-Finetune/images/20250416_115746_187.jpg",
+                    "image": "images/20250416_115746_187.jpg",
                 },
                 {
                     "type": "text",
