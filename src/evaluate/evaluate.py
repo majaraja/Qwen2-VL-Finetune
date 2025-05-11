@@ -10,43 +10,20 @@ from transformers import TextIteratorStreamer
 from functools import partial
 import warnings
 from qwen_vl_utils import process_vision_info
+import json
+
 
 warnings.filterwarnings("ignore")
 
 
-def main(args):
-    global processor, model, device
-
-    device = args.device
-
-    disable_torch_init()
-
-    use_flash_attn = True
-
-    model_name = get_model_name_from_path(args.model_path)
-
-    if args.disable_flash_attention:
-        use_flash_attn = False
-
-    processor, model = load_pretrained_model(
-        model_base=args.model_base,
-        model_path=args.model_path,
-        device_map=args.device,
-        model_name=model_name,
-        load_4bit=args.load_4bit,
-        load_8bit=args.load_8bit,
-        device=args.device,
-        use_flash_attn=use_flash_attn,
-    )
-    print(f"Model successfully loaded: {args.model_base}")
-
+def run_inference(image_name):
     messages = [
         {
             "role": "user",
             "content": [
                 {
                     "type": "image",
-                    "image": "images/20250416_115746_187.jpg",
+                    "image": f"images/{image_name}",
                 },
                 {
                     "type": "text",
@@ -81,35 +58,55 @@ def main(args):
         skip_special_tokens=True,
         clean_up_tokenization_spaces=False,
     )
-    print(output_text)
+    return output_text
 
+
+def main(args):
+    global processor, model, device
+
+    device = args.device
+
+    disable_torch_init()
+
+    use_flash_attn = True
+
+    model_name = get_model_name_from_path(args.model_path)
+
+    if args.disable_flash_attention:
+        use_flash_attn = False
+
+    processor, model = load_pretrained_model(
+        model_base=args.model_base,
+        model_path=args.model_path,
+        device_map=args.device,
+        model_name=model_name,
+        load_4bit=args.load_4bit,
+        load_8bit=args.load_8bit,
+        device=args.device,
+        use_flash_attn=use_flash_attn,
+    )
+    print(f"Model successfully loaded: {args.model_base}")
+
+    json_file_path = "validation_data.json"
     try:
-        import json
+        with open(json_file_path, "r") as f:
+            data = json.load(f)
+    except FileNotFoundError:
+        print(f"Error: File not found at {json_file_path}")
+        return []
 
-        def get_image_names(json_file_path):
-            try:
-                with open(json_file_path, "r") as f:
-                    data = json.load(f)
-            except FileNotFoundError:
-                print(f"Error: File not found at {json_file_path}")
-                return []
+    image_names = []
+    if isinstance(data, list):
+        for item in data:
+            if "image" in item:
+                image_names.append(item["image"])
+    elif isinstance(data, dict):
+        if "image" in data:
+            image_names.append(data["image"])
 
-            image_names = []
-            if isinstance(data, list):
-                for item in data:
-                    if "image" in item:
-                        image_names.append(item["image"])
-            elif isinstance(data, dict):
-                if "image" in data:
-                    image_names.append(data["image"])
-
-            return image_names
-
-        # Example usage (assuming your JSON data is in 'all_data.json')
-        image_names = get_image_names("validation_data.json")
-        print(image_names)
-    except:
-        print("Didnt work, try again")
+    for image_name in image_names:
+        result = run_inference(image_name)
+        print(result)
 
 
 if __name__ == "__main__":
