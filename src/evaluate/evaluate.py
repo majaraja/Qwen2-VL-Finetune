@@ -106,7 +106,7 @@ def main(args):
             return image_names
 
         # Example usage (assuming your JSON data is in 'all_data.json')
-        image_names = get_image_names("~/Qwen2-VL-Finetune/validation_data.json")
+        image_names = get_image_names("validation_data.json")
         print(image_names)
     except:
         print("Didnt work, try again")
