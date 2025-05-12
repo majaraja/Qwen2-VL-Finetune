@@ -41,7 +41,7 @@ deepspeed src/train/train_sft.py \
   --fp16 False \
   --disable_flash_attn2 False \
   --output_dir output/testing_lora \
-  --num_train_epochs 10 \
+  --num_train_epochs 40 \
   --per_device_train_batch_size $BATCH_PER_DEVICE \
   --gradient_accumulation_steps $GRAD_ACCUM_STEPS \
   --image_min_pixels $((256 * 28 * 28)) \
@@ -58,6 +58,6 @@ deepspeed src/train/train_sft.py \
   --report_to tensorboard \
   --lazy_preprocess True \
   --save_strategy "steps" \
-  --save_steps 200 \
+  --save_steps 400 \
   --save_total_limit 10 \
   --dataloader_num_workers 4
