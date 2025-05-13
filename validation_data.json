@@ -1,15 +1,99 @@
 [
     {
-        "id": "20250416_120251_900",
-        "image": "20250416_120251_900.jpg",
+        "id": "20250416_115741_693",
+        "image": "20250416_115741_693.jpg",
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+                "value": "<image>\nLocate key objects in this image, give a bounding box and median depth for each object."
             },
             {
                 "from": "gpt",
-                "value": "{'detections': [{'class': 'bench', 'confidence': 0.6674944758415222, 'bbox': {'center_x': 1461.507568359375, 'center_y': 466.94598388671875, 'size_x': 457.6162109375, 'size_y': 241.96334838867188}, 'median_depth': 7.0}], 'robot_pose': {'translation': {'x': 3.1895017346455514, 'y': -0.651913687122993, 'z': 0.009999999999999998}, 'orientation': {'x': 0.0, 'y': 0.0, 'z': 0.49498891697049485, 'w': 0.868899287648676}}}"
+                "value": "{'detections': [{'class': 'airplane', 'confidence': 0.6002410054206848, 'bbox': {'center_x': 528.3021240234375, 'center_y': 478.6007080078125, 'size_x': 1010.36572265625, 'size_y': 227.0625}, 'median_depth': 8.0}]}"
+            }
+        ]
+    },
+    {
+        "id": "20250416_120418_177",
+        "image": "20250416_120418_177.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nLocate key objects in this image, give a bounding box and median depth for each object."
+            },
+            {
+                "from": "gpt",
+                "value": "{'detections': [{'class': 'chair', 'confidence': 0.8003612756729126, 'bbox': {'center_x': 565.8236694335938, 'center_y': 456.37786865234375, 'size_x': 125.59976196289062, 'size_y': 251.68551635742188}, 'median_depth': 9.0}, {'class': 'chair', 'confidence': 0.7638815641403198, 'bbox': {'center_x': 158.453369140625, 'center_y': 445.9105224609375, 'size_x': 218.80908203125, 'size_y': 277.3385009765625}, 'median_depth': 9.0}, {'class': 'chair', 'confidence': 0.5351451635360718, 'bbox': {'center_x': 114.32268524169922, 'center_y': 445.77410888671875, 'size_x': 132.37867736816406, 'size_y': 274.2615661621094}, 'median_depth': 9.0}]}"
+            }
+        ]
+    },
+    {
+        "id": "20250416_120305_012",
+        "image": "20250416_120305_012.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nLocate key objects in this image, give a bounding box and median depth for each object."
+            },
+            {
+                "from": "gpt",
+                "value": "{'detections': []}"
+            }
+        ]
+    },
+    {
+        "id": "20250416_120207_037",
+        "image": "20250416_120207_037.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nLocate key objects in this image, give a bounding box and median depth for each object."
+            },
+            {
+                "from": "gpt",
+                "value": "{'detections': [{'class': 'person', 'confidence': 0.6676210165023804, 'bbox': {'center_x': 151.22869873046875, 'center_y': 159.8694305419922, 'size_x': 146.3775634765625, 'size_y': 207.0480499267578}, 'median_depth': 1.0}]}"
+            }
+        ]
+    },
+    {
+        "id": "20250416_114718_944",
+        "image": "20250416_114718_944.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nLocate key objects in this image, give a bounding box and median depth for each object."
+            },
+            {
+                "from": "gpt",
+                "value": "{'detections': [{'class': 'chair', 'confidence': 0.8440093994140625, 'bbox': {'center_x': 189.4823760986328, 'center_y': 308.76446533203125, 'size_x': 376.5470275878906, 'size_y': 615.7689208984375}, 'median_depth': 3.0}]}"
+            }
+        ]
+    },
+    {
+        "id": "20250416_120117_407",
+        "image": "20250416_120117_407.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nLocate key objects in this image, give a bounding box and median depth for each object."
+            },
+            {
+                "from": "gpt",
+                "value": "{'detections': [{'class': 'person', 'confidence': 0.8283995985984802, 'bbox': {'center_x': 955.5833129882812, 'center_y': 483.555908203125, 'size_x': 122.217041015625, 'size_y': 186.75051879882812}, 'median_depth': 5.0}, {'class': 'refrigerator', 'confidence': 0.6250939965248108, 'bbox': {'center_x': 133.75311279296875, 'center_y': 448.5720520019531, 'size_x': 266.9202880859375, 'size_y': 269.72467041015625}, 'median_depth': 3.0}]}"
+            }
+        ]
+    },
+    {
+        "id": "20250416_120444_324",
+        "image": "20250416_120444_324.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nLocate key objects in this image, give a bounding box and median depth for each object."
+            },
+            {
+                "from": "gpt",
+                "value": "{'detections': [{'class': 'person', 'confidence': 0.6023582220077515, 'bbox': {'center_x': 1896.3563232421875, 'center_y': 432.27777099609375, 'size_x': 46.55126953125, 'size_y': 322.1295166015625}, 'median_depth': 7.0}]}"
             }
         ]
     },
@@ -19,417 +103,333 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+                "value": "<image>\nLocate key objects in this image, give a bounding box and median depth for each object."
             },
             {
                 "from": "gpt",
-                "value": "{'detections': [{'class': 'bench', 'confidence': 0.7066226005554199, 'bbox': {'center_x': 348.4129943847656, 'center_y': 478.81292724609375, 'size_x': 459.57489013671875, 'size_y': 218.95181274414062}, 'median_depth': 7.0}, {'class': 'traffic light', 'confidence': 0.5244068503379822, 'bbox': {'center_x': 1725.232666015625, 'center_y': 260.25396728515625, 'size_x': 43.1484375, 'size_y': 96.79641723632812}, 'median_depth': 10.0}], 'robot_pose': {'translation': {'x': 3.825104482466977, 'y': -1.2395455013184062, 'z': 0.01}, 'orientation': {'x': 0.0, 'y': 0.0, 'z': 0.4791150149025595, 'w': 0.877752130441687}}}"
+                "value": "{'detections': [{'class': 'bench', 'confidence': 0.7066226005554199, 'bbox': {'center_x': 348.4129943847656, 'center_y': 478.81292724609375, 'size_x': 459.57489013671875, 'size_y': 218.95181274414062}, 'median_depth': 7.0}, {'class': 'traffic light', 'confidence': 0.5244068503379822, 'bbox': {'center_x': 1725.232666015625, 'center_y': 260.25396728515625, 'size_x': 43.1484375, 'size_y': 96.79641723632812}, 'median_depth': 10.0}]}"
             }
         ]
     },
     {
-        "id": "20250416_120132_896",
-        "image": "20250416_120132_896.jpg",
+        "id": "20250416_114855_129",
+        "image": "20250416_114855_129.jpg",
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+                "value": "<image>\nLocate key objects in this image, give a bounding box and median depth for each object."
             },
             {
                 "from": "gpt",
-                "value": "{'detections': [], 'robot_pose': {'translation': {'x': 3.366861279388905, 'y': -0.30214550382584426, 'z': 0.010000000000000002}, 'orientation': {'x': 0.0, 'y': 0.0, 'z': 0.053347507008527216, 'w': 0.9985760078711962}}}"
+                "value": "{'detections': [{'class': 'traffic light', 'confidence': 0.5174437165260315, 'bbox': {'center_x': 1764.42236328125, 'center_y': 132.6033172607422, 'size_x': 308.6019287109375, 'size_y': 256.6781311035156}, 'median_depth': 1.0}]}"
             }
         ]
     },
     {
-        "id": "20250416_120602_248",
-        "image": "20250416_120602_248.jpg",
+        "id": "20250416_115401_498",
+        "image": "20250416_115401_498.jpg",
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+                "value": "<image>\nLocate key objects in this image, give a bounding box and median depth for each object."
             },
             {
                 "from": "gpt",
-                "value": "{'detections': [{'class': 'chair', 'confidence': 0.8850797414779663, 'bbox': {'center_x': 459.98699951171875, 'center_y': 409.2503662109375, 'size_x': 201.25888061523438, 'size_y': 375.08935546875}, 'median_depth': 7.0}, {'class': 'refrigerator', 'confidence': 0.5666902661323547, 'bbox': {'center_x': 733.8448486328125, 'center_y': 324.9224853515625, 'size_x': 280.60015869140625, 'size_y': 489.4366760253906}, 'median_depth': 7.0}], 'robot_pose': {'translation': {'x': 8.16375456194547, 'y': -0.14729856171527267, 'z': 0.009999999999999998}, 'orientation': {'x': 0.0, 'y': 0.0, 'z': -0.2539877038217849, 'w': 0.967207447400679}}}"
+                "value": "{'detections': [{'class': 'chair', 'confidence': 0.7955737113952637, 'bbox': {'center_x': 1127.5982666015625, 'center_y': 484.3671875, 'size_x': 96.503662109375, 'size_y': 169.99880981445312}, 'median_depth': 12.0}, {'class': 'chair', 'confidence': 0.7058798670768738, 'bbox': {'center_x': 871.5617065429688, 'center_y': 486.28363037109375, 'size_x': 132.662841796875, 'size_y': 166.3868408203125}, 'median_depth': 13.0}, {'class': 'sports ball', 'confidence': 0.6206583976745605, 'bbox': {'center_x': 109.2578125, 'center_y': 504.9804992675781, 'size_x': 212.61810302734375, 'size_y': 158.67315673828125}, 'median_depth': 7.0}]}"
             }
         ]
     },
     {
-        "id": "20250416_120530_384",
-        "image": "20250416_120530_384.jpg",
+        "id": "20250416_120629_140",
+        "image": "20250416_120629_140.jpg",
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+                "value": "<image>\nLocate key objects in this image, give a bounding box and median depth for each object."
             },
             {
                 "from": "gpt",
-                "value": "{'detections': [{'class': 'chair', 'confidence': 0.9126767516136169, 'bbox': {'center_x': 1671.87353515625, 'center_y': 430.22943115234375, 'size_x': 176.2734375, 'size_y': 317.8294677734375}, 'median_depth': 8.0}, {'class': 'chair', 'confidence': 0.8738099932670593, 'bbox': {'center_x': 1204.0638427734375, 'center_y': 439.51025390625, 'size_x': 199.66552734375, 'size_y': 295.6598815917969}, 'median_depth': 9.0}, {'class': 'sports ball', 'confidence': 0.6970885992050171, 'bbox': {'center_x': 277.97540283203125, 'center_y': 490.86492919921875, 'size_x': 236.16470336914062, 'size_y': 304.0660095214844}, 'median_depth': 2.0}, {'class': 'refrigerator', 'confidence': 0.6939156651496887, 'bbox': {'center_x': 1857.1033935546875, 'center_y': 337.6261291503906, 'size_x': 123.799072265625, 'size_y': 469.98553466796875}, 'median_depth': 7.0}, {'class': 'dining table', 'confidence': 0.5320340991020203, 'bbox': {'center_x': 1413.551513671875, 'center_y': 445.85418701171875, 'size_x': 257.2392578125, 'size_y': 295.6134338378906}, 'median_depth': 8.0}], 'robot_pose': {'translation': {'x': 7.047014674884803, 'y': 0.05497032277133902, 'z': 0.009999999999999997}, 'orientation': {'x': 0.0, 'y': 0.0, 'z': 0.07437138585951834, 'w': 0.997230613732518}}}"
+                "value": "{'detections': [{'class': 'person', 'confidence': 0.6561110615730286, 'bbox': {'center_x': 1899.4932861328125, 'center_y': 460.87957763671875, 'size_x': 40.256103515625, 'size_y': 271.7147521972656}, 'median_depth': 4.0}, {'class': 'chair', 'confidence': 0.54018634557724, 'bbox': {'center_x': 1315.44580078125, 'center_y': 410.74639892578125, 'size_x': 170.9892578125, 'size_y': 365.5627746582031}, 'median_depth': 7.0}]}"
             }
         ]
     },
     {
-        "id": "20250416_115736_470",
-        "image": "20250416_115736_470.jpg",
+        "id": "20250416_120443_306",
+        "image": "20250416_120443_306.jpg",
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+                "value": "<image>\nLocate key objects in this image, give a bounding box and median depth for each object."
             },
             {
                 "from": "gpt",
-                "value": "{'detections': [{'class': 'traffic light', 'confidence': 0.5425660610198975, 'bbox': {'center_x': 905.2196655273438, 'center_y': 282.59466552734375, 'size_x': 30.4581298828125, 'size_y': 92.61489868164062}, 'median_depth': 10.0}], 'robot_pose': {'translation': {'x': 3.4649588555765964, 'y': -1.5894127756898895, 'z': 0.010000000000000002}, 'orientation': {'x': 0.0, 'y': 0.0, 'z': 0.2891056315770446, 'w': 0.9572972024352929}}}"
+                "value": "{'detections': []}"
             }
         ]
     },
     {
-        "id": "20250416_115416_388",
-        "image": "20250416_115416_388.jpg",
+        "id": "20250416_120421_872",
+        "image": "20250416_120421_872.jpg",
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+                "value": "<image>\nLocate key objects in this image, give a bounding box and median depth for each object."
             },
             {
                 "from": "gpt",
-                "value": "{'detections': [{'class': 'chair', 'confidence': 0.8110653758049011, 'bbox': {'center_x': 644.875244140625, 'center_y': 480.5960693359375, 'size_x': 104.86431884765625, 'size_y': 179.77359008789062}, 'median_depth': 12.0}, {'class': 'chair', 'confidence': 0.6357144117355347, 'bbox': {'center_x': 353.1647644042969, 'center_y': 477.03204345703125, 'size_x': 152.61724853515625, 'size_y': 187.177734375}, 'median_depth': 11.0}, {'class': 'dining table', 'confidence': 0.585659921169281, 'bbox': {'center_x': 492.63214111328125, 'center_y': 478.671875, 'size_x': 194.26571655273438, 'size_y': 178.314208984375}, 'median_depth': 12.0}, {'class': 'tv', 'confidence': 0.5222033858299255, 'bbox': {'center_x': 103.22746276855469, 'center_y': 241.70263671875, 'size_x': 83.78494262695312, 'size_y': 125.81871032714844}, 'median_depth': 8.0}], 'robot_pose': {'translation': {'x': 4.095943693089451, 'y': -0.5499285260192754, 'z': 0.009999999999999998}, 'orientation': {'x': 0.0, 'y': 0.0, 'z': -0.2698411131041545, 'w': 0.9629048622157388}}}"
+                "value": "{'detections': [{'class': 'chair', 'confidence': 0.8160884976387024, 'bbox': {'center_x': 930.9326782226562, 'center_y': 455.9169921875, 'size_x': 124.7171630859375, 'size_y': 248.9425048828125}, 'median_depth': 9.0}, {'class': 'chair', 'confidence': 0.7291385531425476, 'bbox': {'center_x': 554.984619140625, 'center_y': 453.0309753417969, 'size_x': 198.5947265625, 'size_y': 254.83538818359375}, 'median_depth': 9.0}, {'class': 'refrigerator', 'confidence': 0.7211247086524963, 'bbox': {'center_x': 1176.779052734375, 'center_y': 384.0202331542969, 'size_x': 217.7816162109375, 'size_y': 364.53558349609375}, 'median_depth': 9.0}, {'class': 'vase', 'confidence': 0.6849604249000549, 'bbox': {'center_x': 1598.59423828125, 'center_y': 503.994873046875, 'size_x': 197.88916015625, 'size_y': 238.60525512695312}, 'median_depth': 2.0}, {'class': 'dining table', 'confidence': 0.6101227402687073, 'bbox': {'center_x': 730.5906372070312, 'center_y': 459.22320556640625, 'size_x': 229.7159423828125, 'size_y': 233.0830078125}, 'median_depth': 9.0}]}"
             }
         ]
     },
     {
-        "id": "20250416_120942_287",
-        "image": "20250416_120942_287.jpg",
+        "id": "20250416_115351_505",
+        "image": "20250416_115351_505.jpg",
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+                "value": "<image>\nLocate key objects in this image, give a bounding box and median depth for each object."
             },
             {
                 "from": "gpt",
-                "value": "{'detections': [{'class': 'person', 'confidence': 0.793936550617218, 'bbox': {'center_x': 368.9060974121094, 'center_y': 504.1938171386719, 'size_x': 110.46014404296875, 'size_y': 139.35357666015625}, 'median_depth': 5.0}], 'robot_pose': {'translation': {'x': 9.362172319229373, 'y': -1.5911894137704041, 'z': 0.010000000000000002}, 'orientation': {'x': 0.0, 'y': 0.0, 'z': -0.7135362130996998, 'w': 0.7006183501702905}}}"
+                "value": "{'detections': [{'class': 'chair', 'confidence': 0.6395344734191895, 'bbox': {'center_x': 394.80096435546875, 'center_y': 484.2147521972656, 'size_x': 139.98074340820312, 'size_y': 173.40936279296875}, 'median_depth': 12.0}, {'class': 'chair', 'confidence': 0.6114852428436279, 'bbox': {'center_x': 659.537109375, 'center_y': 489.7953186035156, 'size_x': 91.161865234375, 'size_y': 157.43609619140625}, 'median_depth': 13.0}]}"
             }
         ]
     },
     {
-        "id": "20250416_121055_103",
-        "image": "20250416_121055_103.jpg",
+        "id": "20250416_120632_670",
+        "image": "20250416_120632_670.jpg",
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+                "value": "<image>\nLocate key objects in this image, give a bounding box and median depth for each object."
             },
             {
                 "from": "gpt",
-                "value": "{'detections': [], 'robot_pose': {'translation': {'x': 10.07060471624698, 'y': -1.4658680604078247, 'z': 0.01}, 'orientation': {'x': 0.0, 'y': 0.0, 'z': -0.33585659136690865, 'w': 0.9419131329562198}}}"
+                "value": "{'detections': [{'class': 'airplane', 'confidence': 0.612469494342804, 'bbox': {'center_x': 905.1095581054688, 'center_y': 369.036865234375, 'size_x': 1177.3272705078125, 'size_y': 597.7496337890625}, 'median_depth': 5.0}]}"
             }
         ]
     },
     {
-        "id": "20250416_120343_814",
-        "image": "20250416_120343_814.jpg",
+        "id": "20250416_120048_646",
+        "image": "20250416_120048_646.jpg",
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+                "value": "<image>\nLocate key objects in this image, give a bounding box and median depth for each object."
             },
             {
                 "from": "gpt",
-                "value": "{'detections': [{'class': 'dining table', 'confidence': 0.5344448089599609, 'bbox': {'center_x': 1779.33837890625, 'center_y': 474.422119140625, 'size_x': 205.540283203125, 'size_y': 197.55465698242188}, 'median_depth': 10.0}], 'robot_pose': {'translation': {'x': 4.674591221078231, 'y': -0.009015420389405693, 'z': 0.01}, 'orientation': {'x': 0.0, 'y': 0.0, 'z': 0.18941031261685704, 'w': 0.9818980260059517}}}"
+                "value": "{'detections': [{'class': 'chair', 'confidence': 0.7424799203872681, 'bbox': {'center_x': 1872.9058837890625, 'center_y': 488.92950439453125, 'size_x': 93.260009765625, 'size_y': 164.1131591796875}, 'median_depth': 11.0}]}"
             }
         ]
     },
     {
-        "id": "20250416_120554_700",
-        "image": "20250416_120554_700.jpg",
+        "id": "20250416_121039_117",
+        "image": "20250416_121039_117.jpg",
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+                "value": "<image>\nLocate key objects in this image, give a bounding box and median depth for each object."
             },
             {
                 "from": "gpt",
-                "value": "{'detections': [{'class': 'chair', 'confidence': 0.8634335994720459, 'bbox': {'center_x': 644.2391357421875, 'center_y': 416.30474853515625, 'size_x': 190.04156494140625, 'size_y': 352.9798889160156}, 'median_depth': 8.0}], 'robot_pose': {'translation': {'x': 8.048831641296234, 'y': -0.08905194798226804, 'z': 0.009999999999999998}, 'orientation': {'x': 0.0, 'y': 0.0, 'z': -0.2105283633020679, 'w': 0.9775877496395668}}}"
+                "value": "{'detections': [{'class': 'person', 'confidence': 0.8114667534828186, 'bbox': {'center_x': 223.75494384765625, 'center_y': 273.2847595214844, 'size_x': 201.80406188964844, 'size_y': 323.90875244140625}, 'median_depth': 3.0}, {'class': 'chair', 'confidence': 0.5370060205459595, 'bbox': {'center_x': 1657.52197265625, 'center_y': 417.2261962890625, 'size_x': 275.56005859375, 'size_y': 446.0569152832031}, 'median_depth': 3.0}]}"
             }
         ]
     },
     {
-        "id": "20250416_121017_309",
-        "image": "20250416_121017_309.jpg",
+        "id": "20250416_120313_691",
+        "image": "20250416_120313_691.jpg",
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+                "value": "<image>\nLocate key objects in this image, give a bounding box and median depth for each object."
             },
             {
                 "from": "gpt",
-                "value": "{'detections': [{'class': 'chair', 'confidence': 0.8247808218002319, 'bbox': {'center_x': 1370.2401123046875, 'center_y': 378.6378173828125, 'size_x': 387.065185546875, 'size_y': 471.8583984375}, 'median_depth': 6.0}, {'class': 'person', 'confidence': 0.6243266463279724, 'bbox': {'center_x': 56.952545166015625, 'center_y': 323.774169921875, 'size_x': 113.60130310058594, 'size_y': 268.3662414550781}, 'median_depth': 4.0}], 'robot_pose': {'translation': {'x': 9.40392761260701, 'y': -2.304083308288038, 'z': 0.01}, 'orientation': {'x': 0.0, 'y': 0.0, 'z': 0.31892416670596424, 'w': 0.947780236073166}}}"
+                "value": "{'detections': []}"
             }
         ]
     },
     {
-        "id": "20250416_120321_298",
-        "image": "20250416_120321_298.jpg",
+        "id": "20250416_115900_518",
+        "image": "20250416_115900_518.jpg",
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+                "value": "<image>\nLocate key objects in this image, give a bounding box and median depth for each object."
             },
             {
                 "from": "gpt",
-                "value": "{'detections': [{'class': 'chair', 'confidence': 0.6913086771965027, 'bbox': {'center_x': 1464.3704833984375, 'center_y': 478.102783203125, 'size_x': 151.971435546875, 'size_y': 185.5037841796875}, 'median_depth': 11.0}], 'robot_pose': {'translation': {'x': 3.8700068147604414, 'y': -0.27784799309165564, 'z': 0.010000000000000002}, 'orientation': {'x': 0.0, 'y': 0.0, 'z': 0.16351698450147106, 'w': 0.9865405190764066}}}"
+                "value": "{'detections': []}"
             }
         ]
     },
     {
-        "id": "20250416_115423_639",
-        "image": "20250416_115423_639.jpg",
+        "id": "20250416_120551_295",
+        "image": "20250416_120551_295.jpg",
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+                "value": "<image>\nLocate key objects in this image, give a bounding box and median depth for each object."
             },
             {
                 "from": "gpt",
-                "value": "{'detections': [], 'robot_pose': {'translation': {'x': 4.228097575832977, 'y': -0.6631638208867803, 'z': 0.01}, 'orientation': {'x': 0.0, 'y': 0.0, 'z': -0.4147663424720676, 'w': 0.9099279538251056}}}"
+                "value": "{'detections': [{'class': 'chair', 'confidence': 0.8001511693000793, 'bbox': {'center_x': 758.9847412109375, 'center_y': 469.7295227050781, 'size_x': 176.438232421875, 'size_y': 239.13226318359375}, 'median_depth': 6.0}, {'class': 'chair', 'confidence': 0.7291991710662842, 'bbox': {'center_x': 169.2748260498047, 'center_y': 398.26776123046875, 'size_x': 234.37545776367188, 'size_y': 391.5535888671875}, 'median_depth': 7.0}, {'class': 'chair', 'confidence': 0.6680926084518433, 'bbox': {'center_x': 761.8238525390625, 'center_y': 418.59820556640625, 'size_x': 180.84783935546875, 'size_y': 344.5294189453125}, 'median_depth': 8.0}]}"
             }
         ]
     },
     {
-        "id": "20250416_120533_982",
-        "image": "20250416_120533_982.jpg",
+        "id": "20250416_114635_532",
+        "image": "20250416_114635_532.jpg",
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+                "value": "<image>\nLocate key objects in this image, give a bounding box and median depth for each object."
             },
             {
                 "from": "gpt",
-                "value": "{'detections': [{'class': 'chair', 'confidence': 0.8939760327339172, 'bbox': {'center_x': 951.2540283203125, 'center_y': 436.1754150390625, 'size_x': 206.56585693359375, 'size_y': 298.3797302246094}, 'median_depth': 9.0}, {'class': 'chair', 'confidence': 0.8290842175483704, 'bbox': {'center_x': 1406.5283203125, 'center_y': 431.53009033203125, 'size_x': 167.2880859375, 'size_y': 311.3633117675781}, 'median_depth': 8.0}, {'class': 'dining table', 'confidence': 0.7087028622627258, 'bbox': {'center_x': 1157.06201171875, 'center_y': 445.29949951171875, 'size_x': 254.3114013671875, 'size_y': 290.4769287109375}, 'median_depth': 8.0}, {'class': 'chair', 'confidence': 0.517117977142334, 'bbox': {'center_x': 1404.0859375, 'center_y': 476.79351806640625, 'size_x': 159.93896484375, 'size_y': 215.51513671875}, 'median_depth': 8.0}], 'robot_pose': {'translation': {'x': 7.23638246129677, 'y': 0.06724833457968703, 'z': 0.009999999999999998}, 'orientation': {'x': 0.0, 'y': 0.0, 'z': -0.0001503654651429233, 'w': 0.9999999886951133}}}"
+                "value": "{'detections': [{'class': 'chair', 'confidence': 0.8048110008239746, 'bbox': {'center_x': 1143.373779296875, 'center_y': 309.9906005859375, 'size_x': 384.4273681640625, 'size_y': 617.3310546875}, 'median_depth': 4.0}]}"
             }
         ]
     },
     {
-        "id": "20250416_114817_174",
-        "image": "20250416_114817_174.jpg",
+        "id": "20250416_120934_309",
+        "image": "20250416_120934_309.jpg",
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+                "value": "<image>\nLocate key objects in this image, give a bounding box and median depth for each object."
             },
             {
                 "from": "gpt",
-                "value": "{'detections': [{'class': 'cup', 'confidence': 0.5501795411109924, 'bbox': {'center_x': 803.8780517578125, 'center_y': 398.6759948730469, 'size_x': 555.072998046875, 'size_y': 784.5690307617188}, 'median_depth': 1.0}], 'robot_pose': {'translation': {'x': -0.7453523269021288, 'y': 2.4546176763658054, 'z': 0.01}, 'orientation': {'x': 0.0, 'y': 0.0, 'z': 0.9336908759321109, 'w': 0.3580800862951296}}}"
+                "value": "{'detections': [{'class': 'person', 'confidence': 0.7994318604469299, 'bbox': {'center_x': 1827.64404296875, 'center_y': 500.6436462402344, 'size_x': 118.9346923828125, 'size_y': 143.50445556640625}, 'median_depth': 5.0}]}"
             }
         ]
     },
     {
-        "id": "20250416_120110_822",
-        "image": "20250416_120110_822.jpg",
+        "id": "20250416_115215_032",
+        "image": "20250416_115215_032.jpg",
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+                "value": "<image>\nLocate key objects in this image, give a bounding box and median depth for each object."
             },
             {
                 "from": "gpt",
-                "value": "{'detections': [{'class': 'person', 'confidence': 0.7967277765274048, 'bbox': {'center_x': 659.4703369140625, 'center_y': 482.5440673828125, 'size_x': 129.15386962890625, 'size_y': 191.679931640625}, 'median_depth': 5.0}], 'robot_pose': {'translation': {'x': 3.3737018929601805, 'y': -0.31674761466351914, 'z': 0.009999999999999998}, 'orientation': {'x': 0.0, 'y': 0.0, 'z': -0.5365519137430304, 'w': 0.8438673141310141}}}"
+                "value": "{'detections': [{'class': 'chair', 'confidence': 0.8683100342750549, 'bbox': {'center_x': 405.7806396484375, 'center_y': 489.031982421875, 'size_x': 110.46261596679688, 'size_y': 153.03591918945312}, 'median_depth': 13.0}]}"
             }
         ]
     },
     {
-        "id": "20250416_120929_623",
-        "image": "20250416_120929_623.jpg",
+        "id": "20250416_120023_325",
+        "image": "20250416_120023_325.jpg",
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+                "value": "<image>\nLocate key objects in this image, give a bounding box and median depth for each object."
             },
             {
                 "from": "gpt",
-                "value": "{'detections': [{'class': 'refrigerator', 'confidence': 0.5268294215202332, 'bbox': {'center_x': 477.1967468261719, 'center_y': 283.807373046875, 'size_x': 392.30572509765625, 'size_y': 562.7457275390625}, 'median_depth': 5.0}], 'robot_pose': {'translation': {'x': 9.374046865420839, 'y': -1.3804096132378523, 'z': 0.010000000000000002}, 'orientation': {'x': 0.0, 'y': 0.0, 'z': -0.48072072681389144, 'w': 0.8768737553442479}}}"
+                "value": "{'detections': [{'class': 'bench', 'confidence': 0.5098075270652771, 'bbox': {'center_x': 236.71331787109375, 'center_y': 505.40008544921875, 'size_x': 470.9581298828125, 'size_y': 168.82424926757812}, 'median_depth': 5.0}]}"
             }
         ]
     },
     {
-        "id": "20250416_121036_621",
-        "image": "20250416_121036_621.jpg",
+        "id": "20250416_120052_965",
+        "image": "20250416_120052_965.jpg",
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+                "value": "<image>\nLocate key objects in this image, give a bounding box and median depth for each object."
             },
             {
                 "from": "gpt",
-                "value": "{'detections': [{'class': 'person', 'confidence': 0.7894749045372009, 'bbox': {'center_x': 344.40716552734375, 'center_y': 285.21649169921875, 'size_x': 185.10829162597656, 'size_y': 307.71795654296875}, 'median_depth': 3.0}, {'class': 'chair', 'confidence': 0.6285390257835388, 'bbox': {'center_x': 1339.98974609375, 'center_y': 323.1679382324219, 'size_x': 554.6744384765625, 'size_y': 624.4407348632812}, 'median_depth': 3.0}, {'class': 'chair', 'confidence': 0.5752305388450623, 'bbox': {'center_x': 1748.41162109375, 'center_y': 412.6100158691406, 'size_x': 278.84912109375, 'size_y': 431.36590576171875}, 'median_depth': 3.0}, {'class': 'chair', 'confidence': 0.5266062021255493, 'bbox': {'center_x': 1330.5162353515625, 'center_y': 327.7104187011719, 'size_x': 298.591552734375, 'size_y': 601.3971557617188}, 'median_depth': 3.0}], 'robot_pose': {'translation': {'x': 9.934951753251589, 'y': -1.5864743866881066, 'z': 0.01}, 'orientation': {'x': 0.0, 'y': 0.0, 'z': 0.3927718893207768, 'w': 0.9196359295717993}}}"
+                "value": "{'detections': [{'class': 'chair', 'confidence': 0.8365877270698547, 'bbox': {'center_x': 1193.4110107421875, 'center_y': 487.06585693359375, 'size_x': 130.062744140625, 'size_y': 165.879638671875}, 'median_depth': 13.0}, {'class': 'chair', 'confidence': 0.7239130735397339, 'bbox': {'center_x': 1460.526123046875, 'center_y': 485.9673156738281, 'size_x': 95.33349609375, 'size_y': 166.14495849609375}, 'median_depth': 12.0}, {'class': 'cup', 'confidence': 0.5681900382041931, 'bbox': {'center_x': 1730.549560546875, 'center_y': 526.7185668945312, 'size_x': 110.310791015625, 'size_y': 124.2366943359375}, 'median_depth': 10.0}]}"
             }
         ]
     },
     {
-        "id": "20250416_115205_965",
-        "image": "20250416_115205_965.jpg",
+        "id": "20250416_115554_859",
+        "image": "20250416_115554_859.jpg",
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+                "value": "<image>\nLocate key objects in this image, give a bounding box and median depth for each object."
             },
             {
                 "from": "gpt",
-                "value": "{'detections': [{'class': 'chair', 'confidence': 0.8108307719230652, 'bbox': {'center_x': 524.8471069335938, 'center_y': 493.83233642578125, 'size_x': 97.43276977539062, 'size_y': 145.93637084960938}, 'median_depth': 14.0}], 'robot_pose': {'translation': {'x': 2.1446839007055285, 'y': 0.7842740580389431, 'z': 0.01}, 'orientation': {'x': 0.0, 'y': 0.0, 'z': -0.19328238838354309, 'w': 0.9811431691352456}}}"
+                "value": "{'detections': [{'class': 'person', 'confidence': 0.7357237935066223, 'bbox': {'center_x': 267.47869873046875, 'center_y': 240.60740661621094, 'size_x': 122.74301147460938, 'size_y': 163.51803588867188}, 'median_depth': 7.0}, {'class': 'cup', 'confidence': 0.5594559907913208, 'bbox': {'center_x': 1782.0025634765625, 'center_y': 530.6337280273438, 'size_x': 81.923583984375, 'size_y': 104.25485229492188}, 'median_depth': 6.0}]}"
             }
         ]
     },
     {
-        "id": "20250416_114641_393",
-        "image": "20250416_114641_393.jpg",
+        "id": "20250416_114711_911",
+        "image": "20250416_114711_911.jpg",
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+                "value": "<image>\nLocate key objects in this image, give a bounding box and median depth for each object."
             },
             {
                 "from": "gpt",
-                "value": "{'detections': [{'class': 'cup', 'confidence': 0.6320996284484863, 'bbox': {'center_x': 1713.998291015625, 'center_y': 482.1107482910156, 'size_x': 272.908447265625, 'size_y': 341.33160400390625}, 'median_depth': 2.0}], 'robot_pose': {'translation': {'x': -1.180378300673997, 'y': 0.7456020660566168, 'z': 0.01}, 'orientation': {'x': 0.0, 'y': 0.0, 'z': 0.9283291720636004, 'w': 0.3717592612104105}}}"
+                "value": "{'detections': [{'class': 'chair', 'confidence': 0.8121337890625, 'bbox': {'center_x': 1063.072265625, 'center_y': 303.97186279296875, 'size_x': 301.37298583984375, 'size_y': 607.9437255859375}, 'median_depth': 4.0}, {'class': 'chair', 'confidence': 0.5667626261711121, 'bbox': {'center_x': 1058.1033935546875, 'center_y': 390.6671447753906, 'size_x': 289.99298095703125, 'size_y': 439.05853271484375}, 'median_depth': 4.0}, {'class': 'refrigerator', 'confidence': 0.5180299878120422, 'bbox': {'center_x': 601.2123413085938, 'center_y': 487.85394287109375, 'size_x': 256.010009765625, 'size_y': 343.4678039550781}, 'median_depth': 2.0}]}"
             }
         ]
     },
     {
-        "id": "20250416_115518_987",
-        "image": "20250416_115518_987.jpg",
+        "id": "20250416_120201_762",
+        "image": "20250416_120201_762.jpg",
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+                "value": "<image>\nLocate key objects in this image, give a bounding box and median depth for each object."
             },
             {
                 "from": "gpt",
-                "value": "{'detections': [{'class': 'sports ball', 'confidence': 0.8282138705253601, 'bbox': {'center_x': 1836.6512451171875, 'center_y': 479.7901611328125, 'size_x': 165.003662109375, 'size_y': 224.0345458984375}, 'median_depth': 5.0}], 'robot_pose': {'translation': {'x': 4.02423212545919, 'y': -1.709266295336539, 'z': 0.01}, 'orientation': {'x': 0.0, 'y': 0.0, 'z': 0.9618759384828338, 'w': -0.27348615864019094}}}"
+                "value": "{'detections': []}"
             }
         ]
     },
     {
-        "id": "20250416_115901_651",
-        "image": "20250416_115901_651.jpg",
+        "id": "20250416_120624_769",
+        "image": "20250416_120624_769.jpg",
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+                "value": "<image>\nLocate key objects in this image, give a bounding box and median depth for each object."
             },
             {
                 "from": "gpt",
-                "value": "{'detections': [{'class': 'chair', 'confidence': 0.6883119344711304, 'bbox': {'center_x': 1771.28466796875, 'center_y': 478.65631103515625, 'size_x': 163.46923828125, 'size_y': 185.25851440429688}, 'median_depth': 11.0}], 'robot_pose': {'translation': {'x': 3.574004807700335, 'y': 0.250987397344781, 'z': 0.01}, 'orientation': {'x': 0.0, 'y': 0.0, 'z': 0.18212250342712855, 'w': 0.9832758482467855}}}"
+                "value": "{'detections': [{'class': 'chair', 'confidence': 0.8604646325111389, 'bbox': {'center_x': 742.0903930664062, 'center_y': 413.47100830078125, 'size_x': 190.1446533203125, 'size_y': 358.8786315917969}, 'median_depth': 7.0}, {'class': 'refrigerator', 'confidence': 0.8449026942253113, 'bbox': {'center_x': 1003.351318359375, 'center_y': 325.84869384765625, 'size_x': 281.117431640625, 'size_y': 474.527587890625}, 'median_depth': 7.0}]}"
             }
         ]
     },
     {
-        "id": "20250416_120056_234",
-        "image": "20250416_120056_234.jpg",
+        "id": "20250416_115420_962",
+        "image": "20250416_115420_962.jpg",
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+                "value": "<image>\nLocate key objects in this image, give a bounding box and median depth for each object."
             },
             {
                 "from": "gpt",
-                "value": "{'detections': [{'class': 'chair', 'confidence': 0.7906951308250427, 'bbox': {'center_x': 333.0008850097656, 'center_y': 480.83489990234375, 'size_x': 148.15594482421875, 'size_y': 177.2884521484375}, 'median_depth': 12.0}, {'class': 'chair', 'confidence': 0.6907547116279602, 'bbox': {'center_x': 609.1090698242188, 'center_y': 487.0459899902344, 'size_x': 93.8009033203125, 'size_y': 167.55926513671875}, 'median_depth': 12.0}, {'class': 'chair', 'confidence': 0.5245873332023621, 'bbox': {'center_x': 608.173583984375, 'center_y': 510.39239501953125, 'size_x': 91.078857421875, 'size_y': 118.26513671875}, 'median_depth': 12.0}], 'robot_pose': {'translation': {'x': 3.334153636544601, 'y': -0.2581097052871875, 'z': 0.010000000000000002}, 'orientation': {'x': 0.0, 'y': 0.0, 'z': -0.18588052391906396, 'w': 0.9825723539910811}}}"
+                "value": "{'detections': [{'class': 'chair', 'confidence': 0.8623801469802856, 'bbox': {'center_x': 246.8450469970703, 'center_y': 476.2579650878906, 'size_x': 115.19595336914062, 'size_y': 188.20770263671875}, 'median_depth': 11.0}, {'class': 'cup', 'confidence': 0.5769971013069153, 'bbox': {'center_x': 515.1027221679688, 'center_y': 523.5174560546875, 'size_x': 104.70303344726562, 'size_y': 130.34710693359375}, 'median_depth': 5.0}]}"
             }
         ]
     },
     {
-        "id": "20250416_115513_247",
-        "image": "20250416_115513_247.jpg",
+        "id": "20250416_120640_032",
+        "image": "20250416_120640_032.jpg",
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+                "value": "<image>\nLocate key objects in this image, give a bounding box and median depth for each object."
             },
             {
                 "from": "gpt",
-                "value": "{'detections': [], 'robot_pose': {'translation': {'x': 4.192591671508578, 'y': -1.58443125651758, 'z': 0.01}, 'orientation': {'x': 0.0, 'y': 0.0, 'z': 0.9344795644711648, 'w': -0.3560167743039398}}}"
-            }
-        ]
-    },
-    {
-        "id": "20250416_120424_006",
-        "image": "20250416_120424_006.jpg",
-        "conversations": [
-            {
-                "from": "human",
-                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
-            },
-            {
-                "from": "gpt",
-                "value": "{'detections': [{'class': 'chair', 'confidence': 0.8660030961036682, 'bbox': {'center_x': 1108.3526611328125, 'center_y': 453.45001220703125, 'size_x': 128.159912109375, 'size_y': 252.10342407226562}, 'median_depth': 9.0}, {'class': 'chair', 'confidence': 0.794073224067688, 'bbox': {'center_x': 731.611572265625, 'center_y': 454.62213134765625, 'size_x': 192.74835205078125, 'size_y': 254.6796875}, 'median_depth': 10.0}, {'class': 'refrigerator', 'confidence': 0.766047477722168, 'bbox': {'center_x': 1820.197998046875, 'center_y': 499.9541931152344, 'size_x': 198.142822265625, 'size_y': 255.13568115234375}, 'median_depth': 2.0}, {'class': 'dining table', 'confidence': 0.5374695658683777, 'bbox': {'center_x': 905.7482299804688, 'center_y': 461.19427490234375, 'size_x': 232.657470703125, 'size_y': 239.3302001953125}, 'median_depth': 9.0}], 'robot_pose': {'translation': {'x': 6.206400918249916, 'y': -0.23377890066685245, 'z': 0.010000000000000002}, 'orientation': {'x': 0.0, 'y': 0.0, 'z': -0.015745922830577838, 'w': 0.9998760252722402}}}"
-            }
-        ]
-    },
-    {
-        "id": "20250416_115023_148",
-        "image": "20250416_115023_148.jpg",
-        "conversations": [
-            {
-                "from": "human",
-                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
-            },
-            {
-                "from": "gpt",
-                "value": "{'detections': [], 'robot_pose': {'translation': {'x': -0.07986906375272274, 'y': 3.3162754783458754, 'z': 0.010000000000000002}, 'orientation': {'x': 0.0, 'y': 0.0, 'z': -0.860263606681557, 'w': 0.5098495140914027}}}"
-            }
-        ]
-    },
-    {
-        "id": "20250416_120525_749",
-        "image": "20250416_120525_749.jpg",
-        "conversations": [
-            {
-                "from": "human",
-                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
-            },
-            {
-                "from": "gpt",
-                "value": "{'detections': [{'class': 'chair', 'confidence': 0.71095210313797, 'bbox': {'center_x': 1697.2569580078125, 'center_y': 436.60797119140625, 'size_x': 160.753662109375, 'size_y': 298.3189697265625}, 'median_depth': 8.0}, {'class': 'sports ball', 'confidence': 0.6181991696357727, 'bbox': {'center_x': 419.04296875, 'center_y': 482.1092834472656, 'size_x': 255.147705078125, 'size_y': 264.93804931640625}, 'median_depth': 4.0}], 'robot_pose': {'translation': {'x': 6.851865096167984, 'y': -0.002233898837751426, 'z': 0.01}, 'orientation': {'x': 0.0, 'y': 0.0, 'z': 0.2225605559763364, 'w': 0.974918867867221}}}"
-            }
-        ]
-    },
-    {
-        "id": "20250416_115735_323",
-        "image": "20250416_115735_323.jpg",
-        "conversations": [
-            {
-                "from": "human",
-                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
-            },
-            {
-                "from": "gpt",
-                "value": "{'detections': [], 'robot_pose': {'translation': {'x': 3.4179768531374073, 'y': -1.6185272240780777, 'z': 0.01}, 'orientation': {'x': 0.0, 'y': 0.0, 'z': 0.25715525780608744, 'w': 0.9663701016601687}}}"
-            }
-        ]
-    },
-    {
-        "id": "20250416_115744_683",
-        "image": "20250416_115744_683.jpg",
-        "conversations": [
-            {
-                "from": "human",
-                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
-            },
-            {
-                "from": "gpt",
-                "value": "{'detections': [], 'robot_pose': {'translation': {'x': 3.7890935205996032, 'y': -1.2905048871084455, 'z': 0.01}, 'orientation': {'x': 0.0, 'y': 0.0, 'z': 0.4396435288772501, 'w': 0.8981723484478681}}}"
-            }
-        ]
-    },
-    {
-        "id": "20250416_120405_026",
-        "image": "20250416_120405_026.jpg",
-        "conversations": [
-            {
-                "from": "human",
-                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
-            },
-            {
-                "from": "gpt",
-                "value": "{'detections': [{'class': 'chair', 'confidence': 0.809992790222168, 'bbox': {'center_x': 850.1918334960938, 'center_y': 463.37445068359375, 'size_x': 118.07666015625, 'size_y': 226.52554321289062}, 'median_depth': 10.0}, {'class': 'chair', 'confidence': 0.7940345406532288, 'bbox': {'center_x': 490.2387390136719, 'center_y': 459.13653564453125, 'size_x': 176.03045654296875, 'size_y': 246.0450439453125}, 'median_depth': 10.0}, {'class': 'refrigerator', 'confidence': 0.7516154050827026, 'bbox': {'center_x': 1077.302490234375, 'center_y': 390.7324523925781, 'size_x': 209.895263671875, 'size_y': 357.72625732421875}, 'median_depth': 9.0}, {'class': 'dining table', 'confidence': 0.5229403972625732, 'bbox': {'center_x': 658.5709838867188, 'center_y': 469.50457763671875, 'size_x': 219.7696533203125, 'size_y': 226.1260986328125}, 'median_depth': 10.0}], 'robot_pose': {'translation': {'x': 5.686501003504096, 'y': -0.05195446936794831, 'z': 0.01}, 'orientation': {'x': 0.0, 'y': 0.0, 'z': -0.15547878400325868, 'w': 0.9878392317198523}}}"
+                "value": "{'detections': [{'class': 'orange', 'confidence': 0.5700525045394897, 'bbox': {'center_x': 55.64788818359375, 'center_y': 311.4949951171875, 'size_x': 110.86746215820312, 'size_y': 248.32167053222656}, 'median_depth': 3.0}]}"
             }
         ]
     }
