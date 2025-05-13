@@ -53,7 +53,7 @@ def main(args):
                     },
                     {
                         "type": "text",
-                        "text": "Locate key objects and display depth and bounding box info in JSON format.",
+                        "text": "Locate key objects in this image, give a bounding box and median depth for each object.",
                     },
                 ],
             }
