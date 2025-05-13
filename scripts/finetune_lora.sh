@@ -6,8 +6,8 @@
 # MODEL_NAME="Qwen/Qwen2.5-VL-3B-Instruct"
 MODEL_NAME="Qwen/Qwen2.5-VL-7B-Instruct"
 
-DATA_PATH_TRAIN="train_data_nl.json"
-DATA_PATH_VAL="validation_data_nl.json"
+DATA_PATH_TRAIN="train_data.json"
+DATA_PATH_VAL="validation_data.json"
 IMAGE_FOLDER="images/"
 
 export PYTHONPATH=src:$PYTHONPATH
