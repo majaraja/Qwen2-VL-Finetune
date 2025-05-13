@@ -1,0 +1,436 @@
+[
+    {
+        "id": "20250416_120307_584",
+        "image": "20250416_120307_584.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+            },
+            {
+                "from": "gpt",
+                "value": "In the image, there is the following: a bench with confidence 0.57 that has a bounding box at center (1842.92, 479.80) and size (151.22, 181.18), median depth of the object is 11.0. "
+            }
+        ]
+    },
+    {
+        "id": "20250416_120810_289",
+        "image": "20250416_120810_289.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+            },
+            {
+                "from": "gpt",
+                "value": "In the image, there is the following: a chair with confidence 0.56 that has a bounding box at center (431.52, 463.31) and size (230.65, 256.58), median depth of the object is 5.0. "
+            }
+        ]
+    },
+    {
+        "id": "20250416_115913_718",
+        "image": "20250416_115913_718.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+            },
+            {
+                "from": "gpt",
+                "value": "In the image, there is the following: a person with confidence 0.85 that has a bounding box at center (1834.77, 473.37) and size (165.87, 214.77), median depth of the object is 5.0. "
+            }
+        ]
+    },
+    {
+        "id": "20250416_115958_023",
+        "image": "20250416_115958_023.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+            },
+            {
+                "from": "gpt",
+                "value": "In the image, there is the following: no objects detected. "
+            }
+        ]
+    },
+    {
+        "id": "20250416_120054_156",
+        "image": "20250416_120054_156.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+            },
+            {
+                "from": "gpt",
+                "value": "In the image, there is the following: a traffic light with confidence 0.64 that has a bounding box at center (745.44, 290.58) and size (41.98, 89.27), median depth of the object is 10.0, a refrigerator with confidence 0.60 that has a bounding box at center (1759.71, 428.90) and size (317.51, 348.10), median depth of the object is 2.0. "
+            }
+        ]
+    },
+    {
+        "id": "20250416_115815_121",
+        "image": "20250416_115815_121.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+            },
+            {
+                "from": "gpt",
+                "value": "In the image, there is the following: no objects detected. "
+            }
+        ]
+    },
+    {
+        "id": "20250416_115244_071",
+        "image": "20250416_115244_071.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+            },
+            {
+                "from": "gpt",
+                "value": "In the image, there is the following: a refrigerator with confidence 0.58 that has a bounding box at center (763.01, 474.45) and size (325.52, 218.51), median depth of the object is 4.0. "
+            }
+        ]
+    },
+    {
+        "id": "20250416_115750_744",
+        "image": "20250416_115750_744.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+            },
+            {
+                "from": "gpt",
+                "value": "In the image, there is the following: no objects detected. "
+            }
+        ]
+    },
+    {
+        "id": "20250416_115416_388",
+        "image": "20250416_115416_388.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+            },
+            {
+                "from": "gpt",
+                "value": "In the image, there is the following: a chair with confidence 0.81 that has a bounding box at center (644.88, 480.60) and size (104.86, 179.77), median depth of the object is 12.0, a chair with confidence 0.64 that has a bounding box at center (353.16, 477.03) and size (152.62, 187.18), median depth of the object is 11.0, a dining table with confidence 0.59 that has a bounding box at center (492.63, 478.67) and size (194.27, 178.31), median depth of the object is 12.0, a tv with confidence 0.52 that has a bounding box at center (103.23, 241.70) and size (83.78, 125.82), median depth of the object is 8.0. "
+            }
+        ]
+    },
+    {
+        "id": "20250416_114724_904",
+        "image": "20250416_114724_904.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+            },
+            {
+                "from": "gpt",
+                "value": "In the image, there is the following: a vase with confidence 0.55 that has a bounding box at center (317.61, 102.72) and size (96.95, 99.40), median depth of the object is 3.0. "
+            }
+        ]
+    },
+    {
+        "id": "20250416_121046_570",
+        "image": "20250416_121046_570.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+            },
+            {
+                "from": "gpt",
+                "value": "In the image, there is the following: a chair with confidence 0.87 that has a bounding box at center (1764.40, 336.50) and size (309.83, 611.02), median depth of the object is 3.0, a chair with confidence 0.63 that has a bounding box at center (716.38, 387.61) and size (453.17, 501.78), median depth of the object is 3.0, a chair with confidence 0.56 that has a bounding box at center (1023.60, 324.07) and size (263.52, 627.02), median depth of the object is 2.0. "
+            }
+        ]
+    },
+    {
+        "id": "20250416_120346_970",
+        "image": "20250416_120346_970.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+            },
+            {
+                "from": "gpt",
+                "value": "In the image, there is the following: a chair with confidence 0.81 that has a bounding box at center (1524.55, 468.23) and size (166.37, 214.21), median depth of the object is 10.0, a sports ball with confidence 0.68 that has a bounding box at center (648.47, 499.73) and size (205.50, 179.71), median depth of the object is 6.0. "
+            }
+        ]
+    },
+    {
+        "id": "20250416_115411_096",
+        "image": "20250416_115411_096.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+            },
+            {
+                "from": "gpt",
+                "value": "In the image, there is the following: a chair with confidence 0.85 that has a bounding box at center (1295.21, 477.62) and size (100.75, 180.22), median depth of the object is 12.0, a chair with confidence 0.69 that has a bounding box at center (1020.48, 481.63) and size (139.24, 175.93), median depth of the object is 12.0, a sports ball with confidence 0.58 that has a bounding box at center (239.53, 502.95) and size (202.86, 160.76), median depth of the object is 7.0. "
+            }
+        ]
+    },
+    {
+        "id": "20250416_115601_095",
+        "image": "20250416_115601_095.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+            },
+            {
+                "from": "gpt",
+                "value": "In the image, there is the following: a chair with confidence 0.64 that has a bounding box at center (1825.09, 436.93) and size (187.74, 280.34), median depth of the object is 6.0. "
+            }
+        ]
+    },
+    {
+        "id": "20250416_120418_177",
+        "image": "20250416_120418_177.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+            },
+            {
+                "from": "gpt",
+                "value": "In the image, there is the following: a chair with confidence 0.80 that has a bounding box at center (565.82, 456.38) and size (125.60, 251.69), median depth of the object is 9.0, a chair with confidence 0.76 that has a bounding box at center (158.45, 445.91) and size (218.81, 277.34), median depth of the object is 9.0, a chair with confidence 0.54 that has a bounding box at center (114.32, 445.77) and size (132.38, 274.26), median depth of the object is 9.0. "
+            }
+        ]
+    },
+    {
+        "id": "20250416_115554_859",
+        "image": "20250416_115554_859.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+            },
+            {
+                "from": "gpt",
+                "value": "In the image, there is the following: a person with confidence 0.74 that has a bounding box at center (267.48, 240.61) and size (122.74, 163.52), median depth of the object is 7.0, a cup with confidence 0.56 that has a bounding box at center (1782.00, 530.63) and size (81.92, 104.25), median depth of the object is 6.0. "
+            }
+        ]
+    },
+    {
+        "id": "20250416_120549_002",
+        "image": "20250416_120549_002.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+            },
+            {
+                "from": "gpt",
+                "value": "In the image, there is the following: a chair with confidence 0.75 that has a bounding box at center (834.56, 422.62) and size (184.67, 337.47), median depth of the object is 8.0, a dining table with confidence 0.74 that has a bounding box at center (549.88, 426.15) and size (304.89, 347.11), median depth of the object is 8.0, a chair with confidence 0.74 that has a bounding box at center (277.35, 403.87) and size (254.18, 376.36), median depth of the object is 7.0. "
+            }
+        ]
+    },
+    {
+        "id": "20250416_114818_376",
+        "image": "20250416_114818_376.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+            },
+            {
+                "from": "gpt",
+                "value": "In the image, there is the following: a refrigerator with confidence 0.51 that has a bounding box at center (455.11, 398.69) and size (583.37, 791.02), median depth of the object is 1.0. "
+            }
+        ]
+    },
+    {
+        "id": "20250416_120530_384",
+        "image": "20250416_120530_384.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+            },
+            {
+                "from": "gpt",
+                "value": "In the image, there is the following: a chair with confidence 0.91 that has a bounding box at center (1671.87, 430.23) and size (176.27, 317.83), median depth of the object is 8.0, a chair with confidence 0.87 that has a bounding box at center (1204.06, 439.51) and size (199.67, 295.66), median depth of the object is 9.0, a sports ball with confidence 0.70 that has a bounding box at center (277.98, 490.86) and size (236.16, 304.07), median depth of the object is 2.0, a refrigerator with confidence 0.69 that has a bounding box at center (1857.10, 337.63) and size (123.80, 469.99), median depth of the object is 7.0, a dining table with confidence 0.53 that has a bounding box at center (1413.55, 445.85) and size (257.24, 295.61), median depth of the object is 8.0. "
+            }
+        ]
+    },
+    {
+        "id": "20250416_120950_045",
+        "image": "20250416_120950_045.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+            },
+            {
+                "from": "gpt",
+                "value": "In the image, there is the following: a refrigerator with confidence 0.74 that has a bounding box at center (1738.82, 411.51) and size (360.04, 736.74), median depth of the object is 1.0. "
+            }
+        ]
+    },
+    {
+        "id": "20250416_120624_769",
+        "image": "20250416_120624_769.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+            },
+            {
+                "from": "gpt",
+                "value": "In the image, there is the following: a chair with confidence 0.86 that has a bounding box at center (742.09, 413.47) and size (190.14, 358.88), median depth of the object is 7.0, a refrigerator with confidence 0.84 that has a bounding box at center (1003.35, 325.85) and size (281.12, 474.53), median depth of the object is 7.0. "
+            }
+        ]
+    },
+    {
+        "id": "20250416_120059_269",
+        "image": "20250416_120059_269.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+            },
+            {
+                "from": "gpt",
+                "value": "In the image, there is the following: a person with confidence 0.79 that has a bounding box at center (1850.34, 473.95) and size (137.41, 215.60), median depth of the object is 5.0. "
+            }
+        ]
+    },
+    {
+        "id": "20250416_120756_891",
+        "image": "20250416_120756_891.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+            },
+            {
+                "from": "gpt",
+                "value": "In the image, there is the following: a vase with confidence 0.62 that has a bounding box at center (1702.36, 499.46) and size (221.27, 261.93), median depth of the object is 2.0, a chair with confidence 0.56 that has a bounding box at center (52.01, 459.65) and size (103.76, 261.95), median depth of the object is 5.0. "
+            }
+        ]
+    },
+    {
+        "id": "20250416_115457_597",
+        "image": "20250416_115457_597.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+            },
+            {
+                "from": "gpt",
+                "value": "In the image, there is the following: a person with confidence 0.83 that has a bounding box at center (1000.44, 470.86) and size (156.66, 223.53), median depth of the object is 4.0. "
+            }
+        ]
+    },
+    {
+        "id": "20250416_115801_524",
+        "image": "20250416_115801_524.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+            },
+            {
+                "from": "gpt",
+                "value": "In the image, there is the following: a person with confidence 0.78 that has a bounding box at center (335.44, 273.30) and size (109.85, 144.77), median depth of the object is 7.0, a chair with confidence 0.57 that has a bounding box at center (1859.25, 478.25) and size (120.45, 198.93), median depth of the object is 5.0. "
+            }
+        ]
+    },
+    {
+        "id": "20250416_120033_139",
+        "image": "20250416_120033_139.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+            },
+            {
+                "from": "gpt",
+                "value": "In the image, there is the following: a chair with confidence 0.84 that has a bounding box at center (736.50, 488.87) and size (126.14, 160.09), median depth of the object is 13.0, a chair with confidence 0.76 that has a bounding box at center (982.53, 490.34) and size (92.41, 160.06), median depth of the object is 13.0, a airplane with confidence 0.65 that has a bounding box at center (200.75, 495.94) and size (401.51, 179.42), median depth of the object is 8.0. "
+            }
+        ]
+    },
+    {
+        "id": "20250416_120744_618",
+        "image": "20250416_120744_618.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+            },
+            {
+                "from": "gpt",
+                "value": "In the image, there is the following: no objects detected. "
+            }
+        ]
+    },
+    {
+        "id": "20250416_121055_103",
+        "image": "20250416_121055_103.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+            },
+            {
+                "from": "gpt",
+                "value": "In the image, there is the following: no objects detected. "
+            }
+        ]
+    },
+    {
+        "id": "20250416_120629_140",
+        "image": "20250416_120629_140.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+            },
+            {
+                "from": "gpt",
+                "value": "In the image, there is the following: a person with confidence 0.66 that has a bounding box at center (1899.49, 460.88) and size (40.26, 271.71), median depth of the object is 4.0, a chair with confidence 0.54 that has a bounding box at center (1315.45, 410.75) and size (170.99, 365.56), median depth of the object is 7.0. "
+            }
+        ]
+    },
+    {
+        "id": "20250416_120200_637",
+        "image": "20250416_120200_637.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+            },
+            {
+                "from": "gpt",
+                "value": "In the image, there is the following: a cup with confidence 0.56 that has a bounding box at center (180.25, 527.21) and size (96.68, 118.96), median depth of the object is 6.0. "
+            }
+        ]
+    },
+    {
+        "id": "20250416_115748_349",
+        "image": "20250416_115748_349.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nLocate key objects and display depth and bounding box info in JSON format."
+            },
+            {
+                "from": "gpt",
+                "value": "In the image, there is the following: a airplane with confidence 0.63 that has a bounding box at center (868.72, 300.52) and size (1633.12, 593.88), median depth of the object is 7.0, a airplane with confidence 0.52 that has a bounding box at center (440.01, 457.24) and size (700.76, 266.95), median depth of the object is 7.0, a bench with confidence 0.50 that has a bounding box at center (574.05, 474.20) and size (441.04, 221.62), median depth of the object is 7.0. "
+            }
+        ]
+    }
+]
